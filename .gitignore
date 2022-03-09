@@ -1,0 +1,9 @@
+.venv
+media
+*_jpg
+*.jpg
+*_jpeg
+*.jpeg
+*.pyc
+__pycache__
+media/*
