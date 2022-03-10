@@ -1,3 +1,4 @@
+from turtle import right
 import cv2
 import time
 import sys
@@ -82,6 +83,7 @@ class DetectONNX():
                     width = int(w * x_factor)
                     height = int(h * y_factor)
                     left = 0 if left < 0 else left
+                    top = 0 if top < 0 else top
                     box = np.array([left, top, width, height])
                     boxes.append(box)
 
